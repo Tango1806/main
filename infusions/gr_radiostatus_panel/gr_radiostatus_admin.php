@@ -795,7 +795,8 @@ if(function_exists('fsockopen')) {
                 <select name="gb_captcha" class="textbox" style="width:208px;">
                 <option value="0"'.($gr_radiostatus_settings['gb_captcha'] == 0 ? ' selected="selected"' : '').'>Deaktiviert</option>
                 <option value="2"'.($gr_radiostatus_settings['gb_captcha'] == 2 ? ' selected="selected"' : '').'>Secureimage 2</option>
-                <option value="3"'.($gr_radiostatus_settings['gb_captcha'] == 3 ? ' selected="selected"' : '').'>Secureimage 3</option></select>
+                <option value="3"'.($gr_radiostatus_settings['gb_captcha'] == 3 ? ' selected="selected"' : '').'>Secureimage 3</option>
+                </select>
             </td>
 			</tr>
                 <tr>
